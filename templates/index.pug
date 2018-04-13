@@ -1,0 +1,26 @@
+doctype html
+html
+ 
+ head
+  title To do list
+  link(href='styles/style.css', rel='stylesheet')
+  meta(name = 'viewport', content = 'width=device-width,initial-scale=1')
+ 
+ body
+  .app
+   
+   header
+    img.logo(src='images/logo.png')
+    h1 To do:
+
+   form#task-form
+    input#task-input(type='text',placeholder='Add a task')
+    button#task-add(type='submit') ADD
+   
+   main
+    ul#task-list
+  
+   footer 
+    p Developed by Kaio L. 
+
+   script(src='js/main.js')
